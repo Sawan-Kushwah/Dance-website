@@ -1,0 +1,17 @@
+extends base.pug
+
+block style 
+    link(rel="stylesheet", href="../static/css/style.css")
+    link(rel="stylesheet", href="../static/css/contactstyle.css")
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+block content 
+    <div data-aos="flip-right"><h1> Let's Connect </h2></div> 
+    form(action="/contact" , method="post") 
+        <div class="myInputs" data-aos="flip-right">
+            input(type="text" , name="name" , placeholder="Enter your name")
+            input(type="email" , name="email" , placeholder="Enter your Email-Id")
+            input(type="phone" , name="phone" , placeholder="Enter your Phone number")
+            input(type="text" , name="address" , placeholder="Enter your Address")
+            button.btn 
+                | Submit
+        </div>

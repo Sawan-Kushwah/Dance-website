@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 16px;
+    margin-top: 16px;
+    margin-top: 35px;
+    font-size: 3.3rem;
+
+}
+
+.myInputs {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInputs input {
+    margin: 12px 0px;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #646426;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 12px 150px;
+    margin: 22px;
+    color: black;
+    font-size: 20px;
+    background-color: #eeeeab;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.2s ease-in 0.3s;
+
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 0);
+}
